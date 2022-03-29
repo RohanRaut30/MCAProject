@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title> EV Charging Mode</title>
+
+</head>
+
+<body>
+
+    <h1>Charging Mode</h1>
+    <form action="">
+        <label for="vehcileType">Select Vehicle Category:- </label>
+        <select name="vehcileType" id="vehcileType">
+          <option value="bike">EV Bike</option>
+          <option value="scooty">EV Scooty</option>
+          <option value="car">EV Car</option>
+          <option value="truck">EV Truck</option>
+        </select>
+        <br><br>
+        <!--<input type="submit" value="Submit">-->
+        <label for="ChargingType">Select Vehcile Charging Type:- </label><br><br>
+        <input type="radio" id="fastcharge" name="Charging" value="FastCharge Upto 1000V AC">
+        <label for="fastcharge">FastCharge</label><br><br>
+        <input type="radio" id="normalcharge" name="Charging" value="NormalCharge Upto 665V AC">
+        <label for="normalcharge">NormalCharge</label><br><br>
+        <input type="radio" id="slowcharge" name="Charging" value="SlowCharge Upto 220V AC">
+        <label for="slowcharge">SlowCharge</label>
+        <br><br>
+        <label for="payment" value="You have to pay:- "></label>
+        <br><br>
+        <label for="paymentmethod">Payment Method:- </label>
+        <select name="paymentmethod" id="paymentmethod">
+          <option value="cash">Cash</option>
+          <option value="credit_debit_card">Credit/Debit Card</option>
+          <option value="imps">IMPS(Online Pay)</option>
+          <option value="">(Ether) Coming Soon!!!</option>
+        </select>
+    </form>
+      
+</body>
+</html>

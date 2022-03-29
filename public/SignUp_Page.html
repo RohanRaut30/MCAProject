@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="Assets/css/SignUp_Login_page.css"> 
+</head>
+<body>
+ <container>
+    <div>
+        <div>
+            <h1>Sign Up</h1>
+            <h5>Welcome to our :- EV Charging Point</h5>
+            <form action="/sign_up" method="POST">
+             <div>
+                <p><label for="userName">User Name</label></p>
+                <input type="text" id="userName" name="name" width="48" height="48">
+             </div>
+             <div>
+                <p><label for="email">Email Address</label></p>
+                <input type="email" id="email" name="email" width="48" height="48">
+             </div>
+             <div>
+                <p><label for="password">Password</label></p>
+                <input type="password" id="password" name="password"  required width="48" height="48" >
+             </div>
+             <div>
+                <p><label for="ConfirmPassword">Confirm Password</label></p>
+                <input type="password" id="ConfirmPassword" name="ConfirmPassword" required width="48" height="48" >
+             </div>
+             <button type="submit" value="sign_up" id="btnSignUp">Sign Up Now</button>
+             
+             <p>Already a member? <a href="Login_Page.html">Log in</a></p> 
+            <div> 
+               <h6>Or Connect With - </h6>
+               <div><i>Twitter</i></div>
+               <div><i>LinkedIn</i></div>
+               <div><i>Instagram</i></i></div>
+            </div>
+        </div>   
+    </div>
+    </container>
+</body>
+</html>
